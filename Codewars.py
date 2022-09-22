@@ -1,8 +1,4 @@
-lst = [[3, 10], [5, 6], [45, 8]]
-l = []
-for i in lst:
-    if i[0]>=7 and i[1] >= 5:
-        l.append('Senior')
-    else:
-        l.append('Open')
-print(l)
+lst = [1, 1, 1, 1]
+i = ''.join(str(x)for x in lst)
+i = int(i,2)
+print(i)
