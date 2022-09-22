@@ -1,9 +1,8 @@
-lst = [(3, 10), (5, 6), (45, 4)]
-lst = [i[0]+i[1] for i in lst]
-lst2 = []
+lst = [[3, 10], [5, 6], [45, 8]]
+l = []
 for i in lst:
-    if i >=16:
-        lst2.append('Senior')
+    if i[0]>=7 and i[1] >= 5:
+        l.append('Senior')
     else:
-        lst2.append('Open')
-print(lst2)
+        l.append('Open')
+print(l)
