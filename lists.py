@@ -1,3 +1,8 @@
-name = [1, 2, 3, 4, 5, 1,  6, 7]
-name = [i*-1 for i in name]
-print(name)
+a = int(input())
+b = int(input())
+if a<b :
+    l = range(a,b)
+    print(sum(list(l))+b)
+else:
+    l = range(b,a)
+    print(sum(list(l))+a)

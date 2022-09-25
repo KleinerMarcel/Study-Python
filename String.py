@@ -1,3 +1,3 @@
-name = str(input())
-n = sum(1 for let in name if let in "aeiouAEIOU")
-print(n)
+name ='Penilope Rayan Pip John'
+n = name.split(' ')
+print([i for i in n if len(i) <= 4])
