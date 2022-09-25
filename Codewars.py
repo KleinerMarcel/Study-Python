@@ -1,4 +1,4 @@
-lst = [1, 1, 1, 1]
-i = ''.join(str(x)for x in lst)
-i = int(i,2)
-print(i)
+name = 'Sam Harris'
+name = name.split(' ')
+print(name)
+print(name[0][0]+'.'+name[1][0]+'.')
