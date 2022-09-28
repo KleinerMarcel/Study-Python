@@ -1,9 +1,7 @@
-a = int(input())
-b = int(input())
-if a<b :
-    l = range(a,b)
-    print(sum(list(l))+b)
-else:
-    l = range(b,a)
-    print(sum(list(l))+a)
-#ПУПУПУ
+a = 586
+b = len(str(a))
+while b !=1:
+ a = [int(i) for i in str(a)]
+ a = sum(a)
+ b = len(str(a))
+print(a)
