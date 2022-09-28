@@ -6,3 +6,4 @@ if a<b :
 else:
     l = range(b,a)
     print(sum(list(l))+a)
+#ПУПУПУ
