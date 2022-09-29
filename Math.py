@@ -1,8 +1,6 @@
-d = 50
-m = 25
-f = 2
-m = d/m
-if m == f:
-    print (True)
+n = int(input())
+h = int(n**0.5)
+if n/h == h:
+    print(True)
 else:
     print(False)
