@@ -1,3 +1,5 @@
-name ='Penilope Rayan Pip John'
-n = name.split(' ')
-print([i for i in n if len(i) <= 4])
+def areyouplay(name):
+    return name + (' plays' if name[0].lower() == 'r' else ' does not play') + " banjo";
+
+
+print(areyouplay("Ron"))
