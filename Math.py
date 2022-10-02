@@ -1,11 +1,12 @@
-P = 13
-p = list(range(1,P))
-n = 1
-for i in range(len(p)):
-    n*=p[i]
-n = (n+1)/(P*P)
-o = int(n)
-if o == n:
+import math
+P = 5
+p = P-1
+p = math.factorial(p) #0
+p =(p+1)/(P**2) #1/1=1
+print(p)
+n = int(p)
+if n == p:
     print(True)
 else:
     print(False)
+print(p)
