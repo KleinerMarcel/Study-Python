@@ -1,10 +1,8 @@
-def large(x):
-    v = []
-    while len(x) != 0:
-        for i in x:
-            if len(i.lower()) == 4:
-                v.append(i)
-        return v
-
-
-print(large(['oSH', 'bfqy', 'fAxqbVpRW', 'qlIeyEluFtqFci', 'gaNJ', 'uXgNPFGKhVPOygUNFzw', 'xfdt']))
+g = ['1:0','2:0','3:0','4:0','2:1','3:1','4:1','3:2','4:2','4:3']
+h = 0
+for i in g:
+    if i[0] > i[2]:
+        h = h+3
+    elif i[0] == i[2]:
+        h = h+1
+print(h)
