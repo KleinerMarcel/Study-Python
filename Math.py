@@ -1,12 +1,8 @@
-import math
-P = 5
-p = P-1
-p = math.factorial(p) #0
-p =(p+1)/(P**2) #1/1=1
-print(p)
-n = int(p)
-if n == p:
-    print(True)
+n = 11
+d = 15
+w = 30
+if n > 1:
+    l = (d*100*(n-1))+(w*(n-2))
+    print(l)
 else:
-    print(False)
-print(p)
+    print(0)
