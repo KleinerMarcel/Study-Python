@@ -1,9 +1,13 @@
 import math
-def square(k):
+def star(k):
     import turtle
     turtle.shape("turtle")
-    for i in range(5):
+    turtle.color("Blue")
+    turtle.begin_fill()
+    for i in range(9):
         turtle.forward(k)
-        turtle.right(144)
+        turtle.right(100)
+        turtle.forward(k)
+        turtle.left(140)
     turtle.exitonclick()
-print(square(200))
+print(star(30))
